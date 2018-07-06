@@ -22,7 +22,7 @@ class Contact extends React.Component {
                 netlify-honeypot="bot-field"
                 className={styles.form}
                 name="contact"
-                method="post"
+                method="POST"
               >
                 <p style={{display: 'none'}}><label>
                   Bot Field: <br/>
