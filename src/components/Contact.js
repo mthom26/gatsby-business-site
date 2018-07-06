@@ -42,7 +42,7 @@ class Contact extends React.Component {
 
                 <p><label>
                   Message: <br/>
-                  <textarea rows="6" placeholder="Leave your message here"></textarea>
+                  <textarea name="message" rows="6" placeholder="Leave your message here"></textarea>
                 </label></p>
 
                 <button type="submit">Send Form</button>
