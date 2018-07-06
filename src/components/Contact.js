@@ -18,15 +18,13 @@ class Contact extends React.Component {
             <div className={styles.formContainer}>
               <SectionTitle text="Contact"/>
               <form
-                netlify
+                data-netlify="true"
                 netlify-honeypot="bot-field"
                 className={styles.form}
                 name="contact"
-                method="POST"
+                method="post"
+                action="#"
               >
-
-                <input type="hidden" name="form-name" value="contact" />
-                
                 <p style={{display: 'none'}}><label>
                   Bot Field: <br/>
                   <input name="bot-field"/>
