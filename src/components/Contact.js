@@ -24,6 +24,9 @@ class Contact extends React.Component {
                 name="contact"
                 method="POST"
               >
+
+                <input type="hidden" name="form-name" value="contact" />
+                
                 <p style={{display: 'none'}}><label>
                   Bot Field: <br/>
                   <input name="bot-field"/>
