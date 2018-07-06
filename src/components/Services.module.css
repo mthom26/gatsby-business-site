@@ -1,0 +1,42 @@
+.services {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  padding: 0.5rem;
+  
+}
+
+.line {
+  width: 2.5rem;
+  height: 2px;
+  background: orangered;
+  margin-bottom: 1.5rem;
+}
+
+.service img {
+  margin: 0;
+  width: 40%;
+  margin-bottom: 1rem;
+}
+
+.service h2, .service p {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service {
+    margin-bottom: 5rem;
+  }
+}

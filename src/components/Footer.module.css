@@ -1,0 +1,11 @@
+.footer {
+  background: #121212;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  margin: 0.5rem 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}

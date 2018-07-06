@@ -1,0 +1,66 @@
+.contact {
+  position: relative;
+  overflow: hidden;
+  height: 40rem;
+}
+
+.contactContent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background: rgba(0,0,0,0.8);
+}
+
+.contactImage {
+  height: 100%;
+}
+
+.formContainer {
+  margin: 0 auto;
+  max-width: 960px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContainer h1, .formContainer p {
+  color: #f8f8f8;
+}
+
+.formContainer input, .formContainer textarea {
+  width: 100%;
+  border: 1px solid rgba(255,255,255,0);
+  border-radius: 5px;
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(255,255,255,0.75);
+}
+
+.formContainer button {
+  cursor: pointer;
+  width: 100%;
+  border: 2px solid rgba(255,255,255,0.75);
+  color: rgba(255,255,255,0.75);
+  border-radius: 5px;
+  padding: 0.5rem;
+  background: rgba(0,0,0,0.2);
+  font-weight: bold;
+  box-shadow: 1px 1px 15px rgba(255,255,255,0.2);
+}
+
+.formContainer button:hover {
+  background: rgba(255,255,255,0.2);
+  box-shadow: 1px 1px 15px rgba(255,255,255,0.4);
+}
+
+.form {
+  width: 90%;
+  max-width: 450px;
+}
+
+@media (max-width: 600px) {
+
+}

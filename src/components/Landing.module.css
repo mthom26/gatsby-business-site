@@ -1,0 +1,41 @@
+.landing {
+  height: 100vh;
+  /* border: 1px solid orange; */
+}
+
+.landingContent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid lawngreen; */
+  z-index: 10;
+}
+
+.landingContent h1, .landingContent h2 {
+  text-align: center;
+}
+
+.landingContent button {
+  cursor: pointer;
+  border: 2px solid rgba(255,255,255,0.75);
+  color: rgba(255,255,255,0.75);
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+  background: rgba(0,0,0,0.65);
+  font-weight: bold;
+  box-shadow: 1px 1px 15px black;
+  text-align: center;
+}
+
+.landingContent button:hover {
+  background: rgba(0,0,0,0.4);
+  box-shadow: 1px 1px 20px black;
+}
+
+.landingImage {
+  height: 100%;
+}

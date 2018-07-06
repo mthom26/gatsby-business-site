@@ -1,0 +1,7 @@
+.divider {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/conference.jpg);
+  background-size: cover;
+  height: 8rem;
+  border-top: 2px solid orangered;
+  border-bottom: 2px solid orangered;
+}

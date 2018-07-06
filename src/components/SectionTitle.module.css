@@ -1,0 +1,17 @@
+.sectionTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.sectionTitle h1 {
+  margin: 0 1.5rem;
+  margin-bottom: 0.65rem;
+}
+
+.line {
+  width: 2.5rem;
+  height: 2px;
+  background: orangered;
+}
